@@ -188,6 +188,13 @@ footer > h3 {
     font-size: 50px;
 }
 
+.footer {
+    width: auto;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.377);
+    margin-top: 30px;
+}
+
 span > h4 {
     font-family: sans-serif;
     font-weight: lighter;
