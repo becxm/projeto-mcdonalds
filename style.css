@@ -126,6 +126,7 @@ span.pedido {
     margin-left: 70px;
     margin: auto;
     display: block;
+    width: 100%;
 }
 
 .pedido > p {
@@ -134,6 +135,7 @@ span.pedido {
     color: #292929;
     min-width: 300px;
     max-width: 400px;
+    text-align: center;
 }
 
 span.celular {
@@ -144,6 +146,7 @@ span.celular {
     height: 600px;
     margin: auto;
     display: block;
+    width: 100%;
 }
 
 .celular > p {
@@ -153,11 +156,11 @@ span.celular {
     min-width: 300px;
     max-width: 400px;
     padding-left: 30px;
+    text-align: center;
 }
 
 span.promoçao {
     display: inline-block;
-    text-align: right;
 }
 
 .promoçao > img {
@@ -165,6 +168,7 @@ span.promoçao {
     margin-left: 70px;
     margin: auto;
     display: block;
+    width: 100%;
 }
 
 .promoçao > p {
@@ -174,6 +178,7 @@ span.promoçao {
     min-width: 300px;
     max-width: 400px;
     padding-left: 10px;
+    text-align: center;
 }
 
 footer {
