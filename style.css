@@ -273,7 +273,7 @@ span > h4:hover {
     margin-top: -30px;
     color: #292929;
     overflow: hidden;
-    border-radius: 1rem;
+    border-radius: 0px 1rem 1rem 0px;
     transition: width .75s ease;
     display: none;
 }
@@ -371,7 +371,7 @@ li.pag4 {
     top: 30px;
 }
 
-.pg3 {
+.pag4, .pg3, .pag2 {
     background-color: #3b343411;
     background-attachment: fixed;
 }
@@ -384,8 +384,12 @@ div.menu3 {
 }
 
 nav.menu3 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
     margin-top: 55px;
-    padding-left: 100px;
+    padding-left: 70px;
 }
 
 nav.menu3 > a {
@@ -394,14 +398,17 @@ nav.menu3 > a {
     background-color: #f9f9f9;
     margin: 5px;
     padding: 10px 20px 10px 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    font-family: Speedee, sans-serif;
     border: 0.5px solid rgba(0, 0, 0, 0.048);
     border-radius: 28px;
     text-align: center;
     font-size: 1em;
     transition:all .3s linear;
     cursor: pointer;
-
+    text-decoration: none;
+    color: #e7b307;
+    background-color: #f9f9f9;
+    font-size: 1.1em;
 }
 
 nav.menu3 > a:hover {
@@ -409,10 +416,12 @@ nav.menu3 > a:hover {
     font-size: 1.4em;
     background-color: #e7b307;
     color: #f9f9f9;
+    
 }
 
 .login > a {
     border: 0.5px solid rgba(0, 0, 0, 0.048);
+    
 }
 
 h1 {
@@ -495,4 +504,76 @@ div.imgs {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+footer.pag4 {
+    min-width: none;
+    max-width: 2000px;
+    margin-top: 200px;
+}
+
+@media (max-width: 1024px) {
+    .container > img {
+        display: none;
+        width: 100%;
+    }
+}
+
+.login5 {
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 400px;
+    height: 500px;
+}
+
+.login5 > h1 {
+    padding: 0px;
+    font-size: 2.7em;
+    color: #292929;
+}
+
+.login5 > p {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    color: #292929;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.light {
+    margin-top: -10px;
+}
+
+.entrar > a {
+    text-decoration: none;
+    color: #292929;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    margin: px;
+    font-size: .875rem;
+    padding: 15px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.convidado {
+    display: flex;
+}
+.convidado > a {
+    text-decoration: none;
+    color: #292929;
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+
+.convidado > a:hover {
+    text-decoration: underline;
+}
+
+.convidado > svg {
+    width: 16px;
+    padding-left: 5px;
+
 }
