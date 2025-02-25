@@ -394,7 +394,8 @@ nav.menu3 {
     color: white;
     margin-top: 30px;
     margin-top: 55px;
-    padding-left: 70px;
+    margin: auto;
+    padding-top: 50px;
 }
 
 nav.menu3 > a {
@@ -414,6 +415,8 @@ nav.menu3 > a {
     color: #e7b307;
     background-color: #f9f9f9;
     font-size: 1.1em;
+    align-items: center;
+    justify-content: center;
 }
 
 nav.menu3 > a:hover {
@@ -421,7 +424,8 @@ nav.menu3 > a:hover {
     font-size: 1.4em;
     background-color: #e7b307;
     color: #f9f9f9;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 .login > a {
