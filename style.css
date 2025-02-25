@@ -287,6 +287,7 @@ span > h4:hover {
 .sidebar:hover {
     width: 220px;
     padding-right: 20px;
+    color: #29292936;
 }
 
 ul {
@@ -326,6 +327,7 @@ svg.pag1 {
     height: 80px;
     width: 30px;
     margin-left: -8px;
+    color: transparent;
 }
 
 li.pag1 {
@@ -337,6 +339,7 @@ svg.pag2 {
     width: 30px;
     margin-left: -8px;
     padding: -10px;
+    color: transparent;
 }
 
 li.pag2 {
@@ -347,6 +350,7 @@ svg.pag3 {
     height: 80px;
     width: 30px;
     margin-left: -8px;
+    color: transparent;
 }
 
 li.pag3 {
@@ -357,6 +361,7 @@ svg.pag4 {
     height: 80px;
     width: 30px;
     margin-left: -8px;
+    color: transparent;
 }
 
 li.pag4 {
